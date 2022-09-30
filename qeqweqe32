@@ -1,0 +1,35 @@
+Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 30/09/2022
+Var
+// Seção de Declarações das variáveis 
+v:vetor [0..5] de inteiro
+n:inteiro
+valor1,valor2: inteiro
+sair,resultado: caractere
+h: inteiro
+lulu: inteiro
+bozo: inteiro
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+ repita
+ escreval("digite o numero do seu candidato")
+ leia (V[0])
+ n <- n+1
+ate n = 5
+para h de 0 ate 5 faca
+se (v[h] = 13) entao
+lulu <- lulu+1
+ fimse
+ fimpara
+ 
+ para h de 0 ate 5 faca
+se (v[h] = 22) entao
+bozo <- bozo+1
+
+ fimse
+ fimpara
+ escreval("BOZO GANHOU COM", bozo, " votos")
+  escreval("LULU GANHOU COM", lulu, " votos")
+
+Fimalgoritmo
